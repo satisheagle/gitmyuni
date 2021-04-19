@@ -1,7 +1,6 @@
 
 (function($) {
   "use strict";
-
   
   // Testimonials carousel (uses the Owl Carousel library)
    $(".owl-carousel").owlCarousel({

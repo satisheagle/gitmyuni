@@ -346,7 +346,14 @@ padding: 2.5rem 1rem;
 	color: #6b6464;
 }
 @media only screen and (max-width: 600px),@media only screen and (max-width: 768px) {
-
+.nav {
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
   .subtitle {
     display: none!important;
    
@@ -388,7 +395,7 @@ padding: 2.5rem 1rem;
     width: 5px;
     background-color: #fb7739;
     top: 92px;
-    bottom: 172px;
+    bottom: 120px;
     left: 9px;
 }
 .cardpt {
@@ -408,13 +415,18 @@ padding: 2.5rem 1rem;
     padding-bottom: 2rem!important;
 }
 .cardpt2 {
-    padding: 2rem 2.5rem;
+    padding: 2rem 1.5rem 2rem 3rem;
 }
 .text-wrapper {
-    padding: 10px 40px;
+    padding: 10px 15px 10px 40px;
     position: relative;
-    width: 100%;
+    width: 94%;
     left: 9%;
     box-sizing: border-box;
+}
+.acrdpd{
+
+    padding: 20px 20px 20px 30px;
+
 }
 }
